@@ -24,9 +24,7 @@ const sunflowerSeed = createSunflower()
 const wheetSeed = createWheat()
 
 plantSeeds(yearlyPlan)
-const harvestedSeeds = harvestPlants(usePlants())
 
-const containermain = document.getElementsByClassName("container")
-console.log(containermain.innerHTML)
+const harvestedSeeds = harvestPlants(usePlants())
 
 catalog(harvestedSeeds)
